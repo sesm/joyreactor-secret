@@ -20,7 +20,7 @@ function insertStyle() {
   style.appendChild(document.createTextNode(extensionCss));
 }
 
-const secretTagsURL = 'https://joyreactor.cc/tag/%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D1%8B%D0%B5+%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D1%8B/rating';
+const secretTagsURL = '/tag/%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D1%8B%D0%B5+%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D1%8B/rating';
 const statusURLRegex = /^.*Blog\/(.*)\?token=(.*)$/
 
 function getSecretTagsStatus() {

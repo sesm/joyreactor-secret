@@ -9,7 +9,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://joyreactor.cc/*"],
+      "matches": ["https://joyreactor.cc/*", "https://reactor.cc/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
